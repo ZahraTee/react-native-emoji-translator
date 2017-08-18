@@ -35,7 +35,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.heading}>Millenial Talk</Text>
+        <Text style={styles.heading}>Millennial Talk</Text>
         <View style={styles.options}>
           <Button style={styles.optionButton}
                   onPress={this.toggleEmojiOnly}
